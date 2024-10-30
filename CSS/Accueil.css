@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #333;
+    color: white;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    color: #FF5722;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+  
+  header .profile {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 62px);
+    background: url(../img/fondaccueil.webp) no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .text-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .text-box p {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
