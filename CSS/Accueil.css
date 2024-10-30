@@ -7,36 +7,37 @@
   body, html {
     height: 100%;
     font-family: Arial, sans-serif;
+    background: url(../img/fondaccueil.webp) no-repeat center center fixed;
+    background-size: cover;
   }
   
   header {
+    user-select: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
-    background-color: #333;
-    color: white;
   }
   
   header .logo {
-    font-size: 24px;
-    color: #FF5722;
+    font-size: 36px;
+    color: #000000;
     display: flex;
     align-items: center;
     gap: 8px;
   }
   
   header nav a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin: 0 15px;
-    font-size: 18px;
+    font-size: 36px;
   }
   
   header .profile {
     display: flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 36px;
   }
   
   main {
@@ -45,8 +46,6 @@
     justify-content: center;
     align-items: center;
     height: calc(100vh - 62px);
-    background: url(../img/fondaccueil.webp) no-repeat center center fixed;
-    background-size: cover;
   }
   
   .text-box {
@@ -58,6 +57,7 @@
   }
   
   .text-box p {
+    user-select: none;
     font-size: 20px;
     color: #333;
     margin-bottom: 15px;
